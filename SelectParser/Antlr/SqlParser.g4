@@ -19,8 +19,8 @@ column
  | column_with_table_ref
  ;
 
-column_name		        : NAME;
-column_ratio		      : (column_name|column_with_table_ref) ' / ' (column_name|column_with_table_ref) AS NAME;
+column_name           : NAME;
+column_ratio          : (column_name|column_with_table_ref) ' / ' (column_name|column_with_table_ref) AS NAME;
 column_with_table_ref : NAME ('.' NAME);
 
 table_name            : NAME ('.' NAME);
