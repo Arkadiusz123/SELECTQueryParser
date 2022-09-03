@@ -29,8 +29,8 @@ table_name_with_alias : table_name (' ' NAME);
 SELECT                : [Ss][Ee][Ll][Ee][Cc][Tt];
 FROM                  : [Ff][Rr][Oo][Mm];
 JOIN                  : [Jj][Oo][Ii][Nn];
-ON					          : [Oo][Nn];
-AS					          : [Aa][Ss];
+ON                    : [Oo][Nn];
+AS                    : [Aa][Ss];
 NAME                  : [A-Za-z] [A-Za-z0-9]*;
 STRING                : '\'' .*? '\'';
 
